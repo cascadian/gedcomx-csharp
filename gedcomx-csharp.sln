@@ -37,6 +37,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{5BB9
 		GEDCOM X Test1.xml = GEDCOM X Test1.xml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilySearchSchemaGenerator", "..\..\..\..\Documents\Visual Studio 2015\Projects\ConsoleApplication2\FamilySearchSchemaGenerator\FamilySearchSchemaGenerator.csproj", "{961BDF18-07E8-4AFA-8FE5-ED7E78848F18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -116,6 +118,12 @@ Global
 		{4A6F7218-7AA8-40FD-8FE9-E309635242B7}.Default|Any CPU.Build.0 = Debug|Any CPU
 		{4A6F7218-7AA8-40FD-8FE9-E309635242B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A6F7218-7AA8-40FD-8FE9-E309635242B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961BDF18-07E8-4AFA-8FE5-ED7E78848F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961BDF18-07E8-4AFA-8FE5-ED7E78848F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961BDF18-07E8-4AFA-8FE5-ED7E78848F18}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{961BDF18-07E8-4AFA-8FE5-ED7E78848F18}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{961BDF18-07E8-4AFA-8FE5-ED7E78848F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961BDF18-07E8-4AFA-8FE5-ED7E78848F18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

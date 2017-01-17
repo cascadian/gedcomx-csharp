@@ -50,6 +50,8 @@
     <Compile Include="Agent.cs" />
     <Compile Include="DiscussionReference.cs" />
     <Compile Include="FactQualifierType.cs" />
+    <Compile Include="FamilyView.cs" />
+    <Compile Include="NameFormInfo.cs" />
     <Compile Include="NamePartQualifierType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IAttributable.cs" />

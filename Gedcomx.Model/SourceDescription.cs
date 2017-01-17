@@ -28,6 +28,7 @@ namespace Gx.Source
     public partial class SourceDescription : Gx.Links.HypermediaEnabledData, IAttributable
     {
         private string _about;
+        private string _version;
         private string _lang;
         private string _mediaType;
         private string _sortKey;
@@ -66,6 +67,20 @@ namespace Gx.Source
             set
             {
                 this._about = value;
+            }
+        }
+
+        [System.Xml.Serialization.XmlAttributeAttribute(AttributeName = "version")]
+        [Newtonsoft.Json.JsonProperty("version")]
+        public string Version
+        {
+            get
+            {
+                return this._version;
+            }
+            set
+            {
+                this._version = value;
             }
         }
         /// <summary>
@@ -577,6 +592,12 @@ namespace Gx.Source
         public SourceDescription SetAbout(String about)
         {
             About = about;
+            return this;
+        }
+
+        public SourceDescription SetVersion(String version)
+        {
+            Version = version;
             return this;
         }
 

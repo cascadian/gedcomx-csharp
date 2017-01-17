@@ -72,6 +72,14 @@ namespace Gx.Conclusion
                 this._fullText = value;
             }
         }
+
+        [System.Xml.Serialization.XmlElementAttribute(ElementName = "nameFormInfo", Namespace = "http://gedcomx.org/v1/")]
+        [Newtonsoft.Json.JsonProperty("nameFormInfo")]
+        public System.Collections.Generic.List<NameFormInfo> NameFormInfo
+        {
+            get;set;
+        }
+
         /// <summary>
         ///  The different parts of the name form.
         /// </summary>
